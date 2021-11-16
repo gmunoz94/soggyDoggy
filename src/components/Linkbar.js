@@ -1,24 +1,56 @@
-import React from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+import React, { Component } from 'react'
+import { Menu } from 'semantic-ui-react'
+import 'semantic-ui-css/semantic.min.css'
 
-function Linkbar() {
+export default class MenuExampleContentProp extends Component {
+    state = { activeItem: "" };
 
-    return(
-        <div>
-            <Navbar bg="dark" variant="dark">
-                <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-                </Nav>
-                </Container>
-            </Navbar>
-        </div>
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  render() {
+    const { activeItem } = this.state
+    
+
+    return (
+      <Menu stackable >
+          
+           <Menu.Item
+          name='logo (home)'
+          active={activeItem === 'logo (home)'}
+          content='logo (home)'
+          onClick={this.handleItemClick}
+          color={'blue'}
+
+          
+        />
+          
+        <Menu.Item
+          name='editorials'
+          active={activeItem === 'editorials'}
+          content='Editorials'
+          onClick={this.handleItemClick}
+          color={'blue'}
+
+          
+        />
+
+        <Menu.Item
+          name='reviews'
+          active={activeItem === 'reviews'}
+          content='Reviews'
+          onClick={this.handleItemClick}
+          color={'blue'}
+
+        />
+
+        <Menu.Item
+          name='upcomingEvents'
+          active={activeItem === 'upcomingEvents'}
+          content='Upcoming Events'
+          onClick={this.handleItemClick}
+          color={'blue'}
+        />
+      </Menu>
     )
-};
-
-export default Linkbar;
+  }
+}
