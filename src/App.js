@@ -3,6 +3,8 @@ import Linkbar from './components/Linkbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footbar from './components/Footbar';
 import { Col, Container, Row } from 'react-bootstrap';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 
 function App() {
@@ -11,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <Router>
       <Linkbar />
       <Container fluid>
         <Row>
@@ -19,6 +22,7 @@ function App() {
         </Row>
       </Container>
       <Footbar />
+      </Router>
     </div>
   );
 }
