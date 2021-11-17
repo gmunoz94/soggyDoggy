@@ -18,20 +18,18 @@ function App() {
     <div className="App">
       <Router>
       <Linkbar />
-      <Container fluid>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/services">
-          <Services />
-        </Route>
-        <Route exact path="/pricing">
-          <Pricing />
-        </Route>
-        <Route exact path="/meet-monika">
-          <MeetMon />
-        </Route>
-      </Container>
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route exact path="/services">
+        <Services />
+      </Route>
+      <Route exact path="/pricing">
+        <Pricing />
+      </Route>
+      <Route exact path="/meet-monika">
+        <MeetMon />
+      </Route>
       <Footbar />
       </Router>
     </div>

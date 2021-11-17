@@ -1,0 +1,21 @@
+.homeHero {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+.heroText {
+    position: relative;
+    font-family: 'Yuji Mai', serif;
+    font-size: xx-large;
+    bottom: 50px;
+}
+
+.towelDog {
+    height: 600px;
+}
+
+.homeText {
+    margin-top: 2%;
+}
