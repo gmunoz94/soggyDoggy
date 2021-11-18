@@ -2,7 +2,6 @@ import './App.css';
 import Linkbar from './components/Linkbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footbar from './components/Footbar';
-import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/home';
 import Services from './pages/services';

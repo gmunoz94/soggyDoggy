@@ -12,9 +12,9 @@ function Linkbar() {
                 <Navbar.Brand href="/" className="App-title">Soggy Doggy</Navbar.Brand>
                 <Nav className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/services">Services</Nav.Link>
-                <Nav.Link href="/pricing">Pricing</Nav.Link>
+                <Nav.Link href="/services">Services/Pricing</Nav.Link>
                 <Nav.Link href="/meet-monika">Meet Monika</Nav.Link>
+                <Nav.Link href="/contact-me">Contact Us</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>

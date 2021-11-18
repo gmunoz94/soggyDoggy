@@ -1,13 +1,13 @@
 import React from "react";
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import '../styles/Pricing.css'
-import pricingIMG from '../assets/priceIMG.png'
+import towelIMG from "../assets/towelDog.png"
 
 const Pricing = () => {
 
   return (
     <div className="priceBG">
-      <img className="heroImg" src={pricingIMG} alt="price"/>
+      <img className="heroImg" src={towelIMG} alt="price"/>
       <Container>
         <Row>
             <Col>Pricing</Col>
