@@ -17,7 +17,7 @@ const Home = () => {
         <img className="towelDog" src={pricingIMG} alt="dogs in bathtub"/>
         <Row className="homeText">
           <h3>All-Inclusive Spa Experience</h3>
-          <p>Each pet is treated to </p>
+          <p>A bath, nail trim, and ear cleaning is included with EVERY grooming/bathing package.</p>
         </Row>
       </Container>
     </div>

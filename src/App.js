@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/home';
 import Services from './pages/services';
 import MeetMon from './pages/meet-mon';
-import Pricing from './pages/pricing';
+import Contact from './pages/contact';
 
 
 function App() {
@@ -23,11 +23,11 @@ function App() {
       <Route exact path="/services">
         <Services />
       </Route>
-      <Route exact path="/pricing">
-        <Pricing />
-      </Route>
       <Route exact path="/meet-monika">
         <MeetMon />
+      </Route>
+      <Route exact path="/contact-me">
+        <Contact />
       </Route>
       <Footbar />
       </Router>

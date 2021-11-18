@@ -14,7 +14,10 @@ function Linkbar() {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/services">Services/Pricing</Nav.Link>
                 <Nav.Link href="/meet-monika">Meet Monika</Nav.Link>
-                <Nav.Link href="/contact-me">Contact Us</Nav.Link>
+                <Nav.Link href="/contact-me">Contact Me</Nav.Link>
+                </Nav>
+                <Nav>
+                    <Nav.Link href="https://booking.moego.pet/go/?name=SoggyDoggy" target="_blank">Book Appointment</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>
