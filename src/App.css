@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  margin-bottom: 110px;
 }
 
 .App-logo {
@@ -45,8 +44,6 @@
 
 .footer {
   min-width: 100%;
-  position: fixed;
-  bottom: 0;
 }
 
 .navHours {
