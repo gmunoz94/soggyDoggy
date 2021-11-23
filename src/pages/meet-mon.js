@@ -1,16 +1,17 @@
 import React from "react";
-import { Col, Row } from 'react-bootstrap';
-
+import { Container } from 'react-bootstrap';
+import '../styles/Services.css'
+import soggyDogs from "../assets/soggyDogs.jpeg"
 
 const MeetMon = () => {
 
   return (
-    <main>
-        <Row>
-            <Col>Meet Monika</Col>
-            <Col>2 of 2</Col>
-        </Row>
-    </main>
+    <div className="priceBG">
+      <img className="heroImg" src={soggyDogs} alt="price"/>
+      <Container className="underConstruction">
+        <h2>Under Construction</h2>
+      </Container>
+    </div>
   );
 };
 export default MeetMon;

@@ -8,9 +8,8 @@ const Services = () => {
   return (
     <div className="priceBG">
       <img className="heroImg" src={soggyDogs} alt="price"/>
-      <Container>
-        <h2>Services</h2>
-        
+      <Container className="underConstruction">
+        <h2>Under Construction</h2>
       </Container>
     </div>
   );

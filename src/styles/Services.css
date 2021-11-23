@@ -4,3 +4,7 @@
     object-fit: cover;
     object-position: 0 30%;
 }
+
+.underConstruction {
+    min-height: 40vh;
+}
