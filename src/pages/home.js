@@ -1,8 +1,8 @@
 import React from "react";
-import { Row, Container } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import "../styles/Home.css"
 import homepageIMG from "../assets/homeIMG.png"
-import pricingIMG from '../assets/priceIMG.png'
+import pricingIMG from '../assets/pricedIMG.jpeg'
 
 
 const Home = () => {
@@ -10,16 +10,15 @@ const Home = () => {
   return (
     <div className="priceBG">
       <div>
-        <img className="homeHero" src={homepageIMG} alt="price"/>
-        <p className="heroText">Soggy Doggy Mobile Grooming Salon!!</p>
+        <img className="homeHero" src={homepageIMG} alt="Soggy Doggy Dogs"/>
       </div>
-      <Container>
-        <img className="towelDog" src={pricingIMG} alt="dogs in bathtub"/>
+      <div>
+        <img className="towelDog" src={pricingIMG} alt="Soggy Doggy Mobile Van"/>
         <Row className="homeText">
           <h3>All-Inclusive Spa Experience</h3>
           <p>A bath, nail trim, and ear cleaning is included with EVERY grooming/bathing package.</p>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 };

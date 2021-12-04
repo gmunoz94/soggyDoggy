@@ -3,13 +3,7 @@
     height: 50vh;
     object-fit: cover;
     object-position: 0 80%;
-}
-
-.heroText {
-    position: relative;
-    font-family: 'Yuji Mai', serif;
-    font-size: xx-large;
-    bottom: 50px;
+    margin-bottom: 1rem;
 }
 
 .towelDog {
@@ -29,4 +23,56 @@
 
 .btn {
     font-size: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .homeHero {
+        width: 100vw;
+        height: 256px;
+        object-fit: cover;
+        object-position: 0 80%;
+    }
+    
+    .App-title {
+        font-family: 'Yuji Mai', serif;
+        font-size: 96px;
+        line-height: 96px;
+        padding-bottom: 30px;
+    }
+
+    .btn {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 956px) {
+    .towelDog {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 724px) {
+    .App-title {
+        font-family: 'Yuji Mai', serif;
+        font-size: 40px;
+        line-height: 96px;
+        padding-bottom: 30px;
+    }
+
+    .homeHero {
+        width: 100vw;
+        height: auto;
+        object-fit: cover;
+        object-position: 0 80%;
+    }    
+}
+
+@media only screen and (max-width: 414px) {
+    .App-title {
+        font-family: 'Yuji Mai', serif;
+        font-size: 50px;
+        line-height: 96px;
+        padding-bottom: 30px;
+    }
 }
