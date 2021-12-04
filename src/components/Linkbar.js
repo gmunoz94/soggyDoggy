@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
 
 function Linkbar() {
@@ -9,15 +10,9 @@ function Linkbar() {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                <Navbar.Brand href="/" className="App-title">Soggy Doggy</Navbar.Brand>
-                <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/services">Services/Pricing</Nav.Link>
-                <Nav.Link href="/meet-monika">Meet Monika</Nav.Link>
-                <Nav.Link href="/contact-me">Contact Me</Nav.Link>
-                </Nav>
+                <Navbar href="/" className="App-title text-white">Soggy Doggy</Navbar>
                 <Nav>
-                    <Nav.Link href="https://booking.moego.pet/go/?name=SoggyDoggy" target="_blank">Book Appointment</Nav.Link>
+                    <Button className="bookBtn" bg="dark" variant="danger" href="https://booking.moego.pet/go/?name=SoggyDoggy" target="_blank">Book Appointment</Button>
                 </Nav>
                 </Container>
             </Navbar>

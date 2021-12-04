@@ -15,7 +15,7 @@ function Footbar() {
             <Navbar bg="dark" variant="dark">
                 <Container className="navHours" style={{justifyContent: "center"}}>
                 <Navbar.Text className="navHours">Hours</Navbar.Text>
-                <Navbar.Text className="navHours">Mon-Fri 9am-3pm</Navbar.Text>
+                <Navbar.Text className="navHours">Mon-Thur 9am-3pm</Navbar.Text>
                 </Container>
             </Navbar>
         </div>

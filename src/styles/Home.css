@@ -20,3 +20,13 @@
     margin-top: 2%;
 }
 
+.App-title {
+    font-family: 'Yuji Mai', serif;
+    font-size: 96px;
+    line-height: 96px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    font-size: 40px;
+}
