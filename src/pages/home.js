@@ -1,20 +1,15 @@
 import React from "react";
 import { Row, Container } from 'react-bootstrap';
 import "../styles/Home.css"
-import homepageIMG from "../assets/homeIMG.png"
-import pricingIMG from '../assets/priceIMG.png'
+import vanIMG from '../assets/truckIMG.jpg'
 
 
 const Home = () => {
 
   return (
     <div className="priceBG">
-      <div>
-        <img className="homeHero" src={homepageIMG} alt="price"/>
-        <p className="heroText">Soggy Doggy Mobile Grooming Salon!!</p>
-      </div>
-      <Container>
-        <img className="towelDog" src={pricingIMG} alt="dogs in bathtub"/>
+      <Container className="mt-5">
+        <img className="vanImage" src={vanIMG} alt="Soggy Doggy Mobile Grooming Van"/>
         <Row className="homeText">
           <h3>All-Inclusive Spa Experience</h3>
           <p>A bath, nail trim, and ear cleaning is included with EVERY grooming/bathing package.</p>

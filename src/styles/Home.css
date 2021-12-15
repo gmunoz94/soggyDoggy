@@ -12,8 +12,8 @@
     bottom: 50px;
 }
 
-.towelDog {
-    height: 600px;
+.vanImage {
+    width: 100%;
 }
 
 .homeText {
@@ -21,7 +21,7 @@
 }
 
 .App-title {
-    font-family: 'Yuji Mai', serif;
+    font-family: 'theHound';
     font-size: 96px;
     line-height: 96px;
     padding-bottom: 30px;
@@ -29,4 +29,39 @@
 
 .btn {
     font-size: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .App-title {
+        font-family: 'theHound';
+        font-size: 70px;
+        line-height: 70px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .App-title {
+        font-family: 'theHound';
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 18px;
+    }
+
+    .btn {
+        font-size: 20px;
+    } 
+}
+
+@media screen and (max-width: 414px) {
+    .App-title {
+        font-family: 'theHound';
+        font-size: 27px;
+        line-height: 27px;
+        padding-bottom: 12px;
+    }
+
+    .btn {
+        font-size: 15px;
+    } 
 }
