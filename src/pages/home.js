@@ -8,11 +8,58 @@ const Home = () => {
 
   return (
     <div className="priceBG">
-      <Container className="mt-5">
+      <Container className="my-5">
         <img className="vanImage" src={vanIMG} alt="Soggy Doggy Mobile Grooming Van"/>
-        <Row className="homeText">
-          <h3>All-Inclusive Spa Experience</h3>
-          <p>A bath, nail trim, and ear cleaning is included with EVERY grooming/bathing package.</p>
+      </Container>
+      <Container>
+        <Row>
+          <h1 className="serviceHead">Services</h1>
+          <ul className="serviceList1">
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+          </ul>
+          <ul className="serviceList2">
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+            <li>
+              Bathing
+            </li>
+          </ul>
         </Row>
       </Container>
     </div>

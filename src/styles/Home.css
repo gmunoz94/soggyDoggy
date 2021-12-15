@@ -31,6 +31,22 @@
     font-size: 40px;
 }
 
+.serviceHead {
+    font-family: 'theHound';
+}
+
+.serviceList1 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.serviceList2 {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
 @media screen and (max-width: 1024px) {
     .App-title {
         font-family: 'theHound';
