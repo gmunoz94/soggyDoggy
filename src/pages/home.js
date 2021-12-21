@@ -11,53 +11,43 @@ const Home = () => {
       <Container className="my-5">
         <img className="vanImage" src={vanIMG} alt="Soggy Doggy Mobile Grooming Van"/>
       </Container>
-      <Container>
+      <Container className="serviceCont">
         <Row>
           <h1 className="serviceHead">Services</h1>
-          <ul className="serviceList1">
+          <ul className="serviceList list1">
             <li>
-              Bathing
+              Grooming
             </li>
             <li>
               Bathing
             </li>
             <li>
-              Bathing
+              Nail Trim
             </li>
             <li>
-              Bathing
+              Ear Cleaning
             </li>
             <li>
-              Bathing
+              Anal Glands
             </li>
             <li>
-              Bathing
-            </li>
-            <li>
-              Bathing
+              Nail Filing
             </li>
           </ul>
-          <ul className="serviceList2">
+        </Row>
+        <Row>
+          <ul className="serviceList list2">
             <li>
-              Bathing
+              Specialty Shampoos <span className="specText">(Oatmeal, Hypoallergenic, Odor-removing, etc.)</span>
             </li>
             <li>
-              Bathing
+              Deshedding/Furminator Shampoo & Conditioner
             </li>
             <li>
-              Bathing
+              Flea & Tick Treatments
             </li>
             <li>
-              Bathing
-            </li>
-            <li>
-              Bathing
-            </li>
-            <li>
-              Bathing
-            </li>
-            <li>
-              Bathing
+              Toothbrushing
             </li>
           </ul>
         </Row>
